@@ -196,7 +196,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\App\App.js" />
     <Content Include="Scripts\App\const.js" />
-    <Content Include="Scripts\App\HtmlHelper.js" />
+    <Content Include="Scripts\App\Helper.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Content\toastr.scss" />
