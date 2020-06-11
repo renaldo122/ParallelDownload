@@ -1,0 +1,35 @@
+﻿@using AisCodeChallenge.Web.MVC.ViewModels.File
+@using AisCodeChallenge.Web.MVC.Extensions
+
+@model FileViewModel
+
+
+@{
+    ViewBag.Title = "File List";
+}
+
+<table class="table table-bordered" id="fileListTable">
+    <thead>
+        <tr>
+            <th>FileName</th>
+            <th>Extension</th>
+            <th>Absoulute Path</th>
+            <th>Preview</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null)
+        {
+            foreach (var item in @Model.FileData)
+            {
+                <tr>
+                    <td>@item.FileName</td>
+                    <td>@item.Extension</td>
+                    <td class="AbsoluteUrl">@item.AbsoluteUri</td>
+                    <td>@Html.GetPreviewColumn(item)</td>
+                </tr>
+            }
+        }
+
+    </tbody>
+</table>

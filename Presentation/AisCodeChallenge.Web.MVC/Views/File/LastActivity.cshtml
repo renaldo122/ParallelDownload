@@ -1,0 +1,22 @@
+﻿@using AisCodeChallenge.Web.MVC.ViewModels.File
+
+@model FileViewModel
+
+@{
+    ViewBag.Title = "Last Activity";
+}
+
+    <ul class="list-group">
+        <li class="list-group-item active"><h5>Last 10 files</h5></li>
+        @if (Model!=null && Model.LastActivityFiles.Any())
+        {
+            foreach (var item in Model.LastActivityFiles)
+            {
+                <li class="list-group-item">@item.FileName</li>
+            }
+        }
+        else {
+            <li class="list-group-item">No file to display</li>
+        }
+
+    </ul>

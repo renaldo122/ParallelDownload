@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29403.142
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{0031B79C-B13C-4DF9-9273-57578BB20D14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{A98CACA0-F3E1-4FE0-941F-5FD43C6EB08C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{973005F0-DA97-4F5B-855F-0B9552E6EC09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AisCodeChallenge.Web.MVC", "Presentation\AisCodeChallenge.Web.MVC\AisCodeChallenge.Web.MVC.csproj", "{2DBBF38F-3EB3-468A-9420-24C85AE11C49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AisCodeChallenge.Common", "Libraries\AisCodeChallenge.Common\AisCodeChallenge.Common.csproj", "{E09140D6-858D-49F9-B594-28AF8675D34C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AisCodeChallenge.Services", "Libraries\AisCodeChallenge.Services\AisCodeChallenge.Services.csproj", "{06717F61-4C9E-453B-B527-C8F0E8F0E566}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AisCodeChallenge.Tests", "Tests\AisCodeChallenge.Tests\AisCodeChallenge.Tests.csproj", "{6ACBD264-B49D-4DA4-9A85-879A4EC4D7ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DBBF38F-3EB3-468A-9420-24C85AE11C49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DBBF38F-3EB3-468A-9420-24C85AE11C49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DBBF38F-3EB3-468A-9420-24C85AE11C49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DBBF38F-3EB3-468A-9420-24C85AE11C49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E09140D6-858D-49F9-B594-28AF8675D34C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E09140D6-858D-49F9-B594-28AF8675D34C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E09140D6-858D-49F9-B594-28AF8675D34C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E09140D6-858D-49F9-B594-28AF8675D34C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06717F61-4C9E-453B-B527-C8F0E8F0E566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06717F61-4C9E-453B-B527-C8F0E8F0E566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06717F61-4C9E-453B-B527-C8F0E8F0E566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06717F61-4C9E-453B-B527-C8F0E8F0E566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ACBD264-B49D-4DA4-9A85-879A4EC4D7ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACBD264-B49D-4DA4-9A85-879A4EC4D7ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACBD264-B49D-4DA4-9A85-879A4EC4D7ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACBD264-B49D-4DA4-9A85-879A4EC4D7ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2DBBF38F-3EB3-468A-9420-24C85AE11C49} = {A98CACA0-F3E1-4FE0-941F-5FD43C6EB08C}
+		{E09140D6-858D-49F9-B594-28AF8675D34C} = {0031B79C-B13C-4DF9-9273-57578BB20D14}
+		{06717F61-4C9E-453B-B527-C8F0E8F0E566} = {0031B79C-B13C-4DF9-9273-57578BB20D14}
+		{6ACBD264-B49D-4DA4-9A85-879A4EC4D7ED} = {973005F0-DA97-4F5B-855F-0B9552E6EC09}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C99405D8-1AD2-4F08-9164-43AA2D96D70A}
+	EndGlobalSection
+EndGlobal

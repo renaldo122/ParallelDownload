@@ -1,0 +1,23 @@
+﻿@using AisCodeChallenge.Web.MVC.ViewModels.File
+@model FileViewModel
+@{
+    ViewBag.Title = "Files Page";
+}
+
+
+@Html.Partial("Toolbar")
+
+<div class="modal-body row">
+    <div class="col-md-10">
+        <div id="_fileList">
+            @Html.Partial("FileList", Model)
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div id="_LastActivity">
+            @Html.Partial("LastActivity", Model)
+        </div>
+    </div>
+</div>
+
+
